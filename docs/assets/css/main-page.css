@@ -1,0 +1,70 @@
+
+.welcome-box {
+    font-family: 'Montserrat Regular';
+    font-size: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 10px;
+
+    text-align: center;
+
+    width: 100%;
+    height: 400px;
+
+    color: rgb(252, 252, 252, 0.9);
+    background-image: url(../img/pages/main/welcome-background.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    /* background: #000; */
+    border-radius: 5px;
+}
+
+.info-box {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: auto;
+}
+
+.info-item {
+    font-size: 20px;
+    /* cursor: pointer; */
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+
+    width: 340px;
+    height: 200px;
+
+    color: #FCFCFC;
+    background-image: url(../img/pages/main/welcome-background.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    /* background: #0C0C0C; */
+    border-radius: 5px;
+
+    opacity: 0.35;
+    transition: opacity 0.3s;
+}
+
+/* .info-item:hover {
+    opacity: 1;
+} */

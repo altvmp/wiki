@@ -1,23 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>alt:V Unofficial Wiki</title>
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main-page.css"/>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
-    <div class="status-box">
-        <div class="title">
-            <img src="./103846656.png" width="50px" alt="">
-            <img src="./favicon.ico" width="50px" alt="">
+    <div id="app">
+        <header>
+            <div class="container">
+                <div class="header-box">
+                    <div class="logo">
+                        <a href="https://altvmp.github.io/wiki/"><img src="./favicon.ico" height="35px" alt="alt:V Multiplayer Unofficial Wiki" draggable="false" /></a>
+                        <div class="logotype-text" draggable="false">alt:V <span style="font-family: 'Montserrat Bold';"> Unofficial Wiki</span></div>
+                    </div>
+
+                    <div class="right-menu">
+                        <div class="search-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="23.98" viewBox="0 0 24 23.98"><path id="Контур_4" data-name="Контур 4" d="M23.7,22.471,16.812,15.58A9.3,9.3,0,0,0,18.986,9.6,9.493,9.493,0,0,0,0,9.6a9.5,9.5,0,0,0,15.38,7.363l6.911,6.911A.995.995,0,1,0,23.7,22.471ZM2.017,9.6a7.472,7.472,0,0,1,14.943,0,7.472,7.472,0,0,1-14.943,0Z" transform="translate(0 -0.2)"/></svg>
+
+                            <input class="search-input" type="text" placeholder="Поиск..." />
+                        </div>
+
+                        <!-- <div class="menu">
+                            <div class="menu-item">Партнеры</div>
+                        </div> -->
+
+                        <div class="contacts">
+                            <div class="contact-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.08" viewBox="0 0 24 16.89"> <g id="XMLID_822_" transform="translate(0 -45.917)"> <path id="XMLID_823_" d="M23.065,47.367c-.866-1.03-2.466-1.45-5.52-1.45H6.456c-3.125,0-4.751.447-5.614,1.544C0,48.53,0,50.1,0,52.285V56.44c0,4.223,1,6.368,6.456,6.368H17.544c2.649,0,4.117-.371,5.066-1.28C23.584,60.6,24,59.074,24,56.44V52.285C24,49.986,23.935,48.4,23.065,47.367Zm-7.656,7.569-5.035,2.632a.774.774,0,0,1-1.133-.686V51.635a.774.774,0,0,1,1.131-.687l5.035,2.615a.774.774,0,0,1,0,1.373Z"/> </g> </svg>
+                            </div>
+
+                            <div class="contact-item">
+                                <a href="https://discord.gg/BvCh3KXPjG">
+                                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve"><path d="M18.942 5.556a16.299 16.299 0 0 0-4.126-1.297c-.178.321-.385.754-.529 1.097a15.175 15.175 0 0 0-4.573 0 11.583 11.583 0 0 0-.535-1.097 16.274 16.274 0 0 0-4.129 1.3c-2.611 3.946-3.319 7.794-2.965 11.587a16.494 16.494 0 0 0 5.061 2.593 12.65 12.65 0 0 0 1.084-1.785 10.689 10.689 0 0 1-1.707-.831c.143-.106.283-.217.418-.331 3.291 1.539 6.866 1.539 10.118 0 .137.114.277.225.418.331-.541.326-1.114.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595c.415-4.396-.709-8.209-2.973-11.589zM8.678 14.813c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c.001 1.123-.793 2.045-1.798 2.045zm6.644 0c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c0 1.123-.793 2.045-1.798 2.045z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="container">
+                <div class="welcome-box">
+                    <p>Добро пожаловать на <span style="font-family: 'Montserrat Bold';">неофициальную</span> вики <br />alt:V Multiplayer</p>
+                    <p style="font-size: 14px; color: rgb(252, 252, 252, 0.55);">Если Вы хотите помочь развитию этого проекта - вступайте в наш <span style="color: rgb(252, 252, 252, 0.9); text-decoration: underline; cursor: pointer;">Discord</span>!</p>
+                </div>
+
+                <div class="title"># alt:V Multiplayer</div>
+                <div class="description" style="font-size: 18px;">Это альтернативная многопользовательская среда для GTAV, которая позволяет разработчикам и игрокам играть на пользовательских серверах. Эти серверы могут использовать такие языки, как C# и JavaScript. Здесь вы узнаете, как работать с alt:V на JavaScript, как правильно настроить проект и создать свой собственный игровой режим.</div>
+
+                <div class="line"></div>
+
+                <div class="title" style="font-size: 28px;">Вступление</div>
+                <div class="description">Начните создавать свой сервер прямо сейчас!</div>
+                <div class="info-box">
+                    <div class="info-item">Установка сервера</div>
+                    <div class="info-item">Настройка окружения для проекта</div>
+                    <div class="info-item">Как работать с сервером?</div>
+                    <div class="info-item">Как работать с клиентом?</div>
+                    <div class="info-item">Начало работы с событиями</div>
+                    <div class="info-item">Работаем с модификациями (DLC)</div>
+                </div>
+
+                <div class="title" style="font-size: 28px;">Справка</div>
+                <div class="description">Здесь можно посмотреть полный список нужной Вам информации.</div>
+                <div class="info-box">
+                    <div class="info-item">Серверные функции</div>
+                    <div class="info-item">Серверные события</div>
+                    <div class="info-item">Клиентские функции</div>
+                    <div class="info-item">Клиентские события</div>
+                </div>
+            </div>
         </div>
 
-        <div class="title-text">В разработке</div>
+        <!-- <footer>
+            <div class="container">
+                <p>Следите за нами </p>
+            </div>
+        </footer> -->
+
+        <footer style="height: 100px; font-size: 14px;">
+            <p>Выпущено под <span style="font-family: 'Montserrat SemiBold'; text-decoration: underline; cursor: pointer;">лицензией MIT</span>.</p>
+            <p>Все права защищены © 2022 Aspid Developer</p>
+        </footer>
     </div>
 </body>
+
 </html>
